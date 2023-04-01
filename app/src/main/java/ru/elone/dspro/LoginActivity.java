@@ -76,7 +76,7 @@ public class LoginActivity extends AppCompatActivity {
                     startActivity(new Intent(LoginActivity.this, ChoiceActivity.class).putExtra("username", userName));
                 } else {
                     Toast.makeText(LoginActivity.this, "Введеные данные неверны!", Toast.LENGTH_LONG).show();
-                    startActivity(new Intent(LoginActivity.this, ChoiceActivity.class).putExtra("username", userName));
+                 
                 }
             }
 
